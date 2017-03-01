@@ -7,7 +7,7 @@ html {
  text-align: center;
 }
 
-h2, h4 {
+h2, h3, h4 {
   margin: 0;
   padding: 10px;
 }
@@ -72,7 +72,7 @@ nav ul li a {
 
 /* Middle Part */
 
-.middle {
+#middle {
   padding-top: 120px;
   width: 1000px;
   height: 700px;
@@ -89,4 +89,42 @@ nav ul li a {
   width: 300px;
   height: 200px;
   margin: 10px;
+}
+
+/* Locations Part */
+
+#locations {
+  height: 560px;
+  width: 1200px;
+  margin: auto;
+  background-image: url(../../resources/images/locations.jpg);
+  padding-top: 70px;
+
+}
+
+.pieces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.item {
+  margin: 15px 20px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Footer */
+footer {
+  height: 200px;
+}
+
+#left {
+  text-align: left;
+  margin-left: 20px;
 }
