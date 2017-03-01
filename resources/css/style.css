@@ -1,0 +1,70 @@
+html {
+ font-family: Helvetica;
+ font-size: 22px;
+ color: seashell;
+ background-color: black;
+ opacity: 0.9;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+
+/* Header */
+
+.header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 1;
+}
+
+.header .container {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  color: white;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: seashell;
+}
+
+/* Banner */
+
+.banner {
+  background-image: url(../../resources/images/background.jpg);
+  background-size: cover;
+  height: 700px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  top: 69px;
+}
+
+
+.mission {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
