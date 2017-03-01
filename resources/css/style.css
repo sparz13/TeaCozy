@@ -4,6 +4,7 @@ html {
  color: seashell;
  background-color: black;
  opacity: 0.9;
+ text-align: center;
 }
 
 h2, h4 {
@@ -20,11 +21,12 @@ h2, h4 {
   border-bottom: 1px solid seashell;
   width: 100%;
   z-index: 1;
+  background-color: black;
+  margin-top: 0;
 }
 
 .header .container {
   display: flex;
-  background-color: black;
   justify-content: space-between;
   align-items: center;
 }
@@ -50,7 +52,6 @@ nav ul li a {
   background-image: url(../../resources/images/background.jpg);
   background-size: cover;
   height: 700px;
-  margin: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -67,4 +68,25 @@ nav ul li a {
   text-align: center;
   width: 100%;
   margin: auto;
+}
+
+/* Middle Part */
+
+.middle {
+  padding-top: 120px;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+
+.part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic img{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
 }
